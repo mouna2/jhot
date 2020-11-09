@@ -19,5 +19,10 @@
 	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/soot-3.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/soot-4.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/soot-4.2.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/jl5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/paddle-nightly.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/jasminclasses.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/jedd-runtime.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mouna/Downloads/jedd-translator.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

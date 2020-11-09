@@ -15,5 +15,44 @@
         </configuration>
       </plugin>
     </plugins>
+    
   </build>
+  <dependencies>
+  <dependency>
+	<groupId>ca.mcgill.sable</groupId>
+	<artifactId>soot</artifactId>
+	<version>3.2.0</version>
+</dependency>
+	<dependency>
+  		<groupId>fr.inria.gforge.spoon</groupId>
+  		<artifactId>spoon-core</artifactId>
+  		<version>7.2.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>mysql</groupId>
+  		<artifactId>mysql-connector-java</artifactId>
+  		<version>8.0.11</version>
+  	</dependency>
+  <dependency>
+    <groupId>org.soot-oss</groupId>
+    <artifactId>soot</artifactId>
+    <version>4.2.1</version>
+  </dependency>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-engine</artifactId>
+  		<version>5.4.0</version>
+  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+	<dependency>
+	    <groupId>nz.ac.waikato.cms.weka</groupId>
+	    <artifactId>weka-stable</artifactId>
+	    <version>3.8.0</version>
+	</dependency>
+	<dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr4-runtime</artifactId>
+    <version>4.7.1</version>
+	</dependency>
+  </dependencies>
 </project>
