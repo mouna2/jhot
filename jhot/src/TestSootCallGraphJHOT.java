@@ -222,7 +222,7 @@ public class TestSootCallGraphJHOT extends SceneTransformer {
 		    		System.out.println(methodparams);
 		    		methodname = mymethod.getName(); 
 		    		System.out.println(mymethod.getName());
-		    		if(methodname.equals("<init>")) methodname="-init-"; 
+		    		if(methodname.equals("<init>") || methodname.equals("<clinit>")) methodname="-init-"; 
 		    		ResultSet methods = st2.executeQuery("SELECT * from methods where methodname='"+methodname+methodparams+"'and classname='"+classname+"'"); 
 					while(methods.next()){
 						  methodname = methods.getString("methodname"); 
